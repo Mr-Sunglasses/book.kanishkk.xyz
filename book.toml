@@ -1,0 +1,5 @@
+[book]
+authors = ["Kanishk Pachauri"]
+language = "en"
+src = "src"
+title = "/var/book/logs"
