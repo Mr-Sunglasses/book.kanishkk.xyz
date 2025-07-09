@@ -57,37 +57,38 @@ sudo apt install virt-manager
 
 **Step 1:** Open Virtual Machine Manager
 
-![[Screenshot from 2025-06-15 07-42-44.png]]
+![Virtual Manager GUI Demo](./assets/intro-assets/virt-manager-gui-demo.png "Virtual Machine Manager GUI")
 
 **Step 2:** Click on New VM button from the task-bar
 
-![[Screenshot from 2025-06-15 07-45-58.png]]
+![Virtual Machine Manager New VM Button](./assets/intro-assets/virt-manager-new-vm-button.png "New VM Button")
+
 - ***Above is the create new VM button***
 
-![[Screenshot from 2025-06-15 07-45-44.png]]
+![Virtual Machine Manager Create New VM](./assets/intro-assets/virt-manager-create-new-vm.png "Create New VM")
 
 - You can select your preferred way to load operating system ISO
 - For this guide, I've downloaded the [trisquel gnulinux ISO](https://trisquel.info/) , so I'll select local install media option.
 
 **Step 3:** Browse and Choose the ISO image path
 
-![[Screenshot from 2025-06-15 08-43-41.png]]
+![Choose the ISO image](./assets/intro-assets/intro-assets-a.png "Choose ISO Image")
 
-![[Screenshot from 2025-06-15 08-44-04.png]]
+![Locate ISO Image](./assets/intro-assets/intro-assets-b.png "Locate ISO Image")
 
 **Step 4:** Choose memory and CPU settings
-
-![[Pasted image 20250615090221.png]]
+    
+![Choose Memory and CPU](./assets/intro-assets/intro-assets-c.png "Choose Memory and CPU")
 
 **Step 5:** Select the storage
 
-![[Screenshot from 2025-06-15 09-20-46 1.png]]
+![Select Storage](./assets/intro-assets/intro-assets-d.png "Select Storage")
 
 **Step 6:** Confirm and create new Virtual Machine
 
-![[Screenshot from 2025-06-15 09-05-32.png]]
+![Confirm and Create VM](./assets/intro-assets/intro-assets-e.png "Confirm and Create VM")
 
 ---
 #### Finally the newly created VM start
 
-![[Screenshot from 2025-06-15 09-09-47.png]]
+![Newly Created VM](./assets/intro-assets/intro-assets-f.png "Newly Created VM")
