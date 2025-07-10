@@ -1,0 +1,2 @@
+## Linux and Homserver HOWTOs
+- [How to setup automatic hostname discovery on the network](./automatic_hostname_discovery.md)
