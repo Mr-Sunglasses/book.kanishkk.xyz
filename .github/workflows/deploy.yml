@@ -11,26 +11,18 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-    
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
+    - name: Setup mdbook
+      uses: peaceiris/actions-mdbook@v2
       with:
-        node-version: '18'
-    
-    - name: Setup Rust
-      uses: dtolnay/rust-toolchain@stable
-    
-    - name: Install mdbook
-      run: cargo install mdbook
-    
-    - name: Install Netlify CLI
-      run: npm install -g netlify-cli
-    
+        mdbook-version: 'latest'
+      
     - name: Build mdbook
       run: mdbook build
     
     - name: Deploy to Netlify
-      run: netlify deploy --prod --dir=book
+      uses: netlify/actions/cli@master
+      with:
+        args: deploy --prod --dir=book
       env:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
