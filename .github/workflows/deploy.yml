@@ -1,0 +1,36 @@
+name: Build and Deploy mdbook with Netlify CLI
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+    
+    - name: Setup Rust
+      uses: dtolnay/rust-toolchain@stable
+    
+    - name: Install mdbook
+      run: cargo install mdbook
+    
+    - name: Install Netlify CLI
+      run: npm install -g netlify-cli
+    
+    - name: Build mdbook
+      run: mdbook build
+    
+    - name: Deploy to Netlify
+      run: netlify deploy --prod --dir=book
+      env:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
