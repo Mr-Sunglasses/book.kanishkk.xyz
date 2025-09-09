@@ -6,6 +6,7 @@
 - [Blogs](blogs/index.md)
     - [Contact Me](blogs/contact_me.md)
     - [Hello Ghostty](blogs/hello_ghostty.md)
+    - [Docker Volumne and Mounts](blogs/docker_volume_and_mounts.md)
 
 - [The Guide to QEMU-KVM](qemu/index.md)
     - [Introduction](qemu/intro.md)
