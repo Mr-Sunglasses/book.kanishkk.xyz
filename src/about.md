@@ -42,7 +42,7 @@ I'm a dev 🤓 by ☀️ and an Open Source Contributor aka OpenSorcerer 🧙‍
 
 ### Get in Touch
 
-- 🌐 [Visit my website](https://kanishkk.me/)
+- 🌐 [Visit my website](https://kanishkk.xyz/)
 
 You can reach out to me at [itskanishkp.py@gmail.com](mailto:itskanishkp.py@gmail.com)
 

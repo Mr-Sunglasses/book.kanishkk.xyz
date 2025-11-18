@@ -5,8 +5,8 @@
 - [About me](./about.md)
 - [my dotfiles](https://github.com/Mr-Sunglasses/dotfiles)
 - [my neovim config](https://github.com/Mr-Sunglasses/vimconfig)
-- [my personal website](https://kanishkk.me)
-- [my blog](https://blog.kanishkk.me)
+- [my personal website](https://kanishkk.xyz)
+- [my blog](https://blog.kanishkk.xyz)
 - [my github](https://github.com/Mr-Sunglasses)
 
 # Remember Aaron Swartz, Gone, but never forgotten ❤️. Thank you Aaron 🙏
