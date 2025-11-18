@@ -1,5 +1,17 @@
 [book]
+title = "/var/log/book"
+description="Kanishk's knowledge base and writings"
 authors = ["Kanishk Pachauri"]
 language = "en"
 src = "src"
-title = "/var/book/logs"
+
+[rust]
+edition = "2018"
+
+[output.html]
+smart-punctuation = true
+mathjax-support = true
+site-url = "/book/"
+git-repository-url = "https://github.com/Mr-Sunglasses/book.kanishkk.xyz/tree/master/src"
+edit-url-template = "https://github.com/Mr-Sunglasses/book.kanishkk.xyz/tree/master/{path}"
+hash-files = true
