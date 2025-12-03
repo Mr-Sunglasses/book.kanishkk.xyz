@@ -1,6 +1,10 @@
 # [book.kanishkk.xyz](https://book.kanishkk.xyz)
 An online fingerprint of my knowledge base
 
+<p align="center">
+    <img src="logo/logo.png">
+</p>
+
 ## Setup
 - Clone the Repo
 ```
