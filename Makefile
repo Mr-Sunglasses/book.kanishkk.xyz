@@ -17,9 +17,13 @@ build: book.toml src/
 	@echo "Building the book"
 	mdbook build
 
+install: scripts/install_mdbook.sh
+	@echo "Installing mdBook and required plugins"
+	bash scripts/install_mdbook.sh
+
 clean:
 	@echo "Cleaning the book"
 	mdbook clean
 	@rm -rf book
 
-.PHONY: default serve build clean
+.PHONY: default serve build install clean
