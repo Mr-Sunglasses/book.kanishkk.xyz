@@ -15,3 +15,4 @@
 - [HOWTOs](howtos/index.md)
     - [Automatic hostname discovery](howtos/automatic_hostname_discovery.md)
     - [mdbook deploy CI with netlify](howtos/mdbook_ci_netlify.md)
+    - [ssh fixes](howtos/ssh_fixed.md)
