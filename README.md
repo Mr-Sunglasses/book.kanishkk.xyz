@@ -4,9 +4,9 @@ An online fingerprint of my knowledge base
 ## Setup
 - Clone the Repo
 ```
-git clone https://github.com/Mr-Sunglasses/book.kanishkk.me
+git clone https://github.com/Mr-Sunglasses/book.kanishkk.xyz
 
-cd book.kanishkk.me
+cd book.kanishkk.xyz
 ```
 - Install mdbook into your system ( using script )
 ```
