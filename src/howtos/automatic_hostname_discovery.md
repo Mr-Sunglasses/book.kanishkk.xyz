@@ -7,6 +7,12 @@ sudo apt update
 sudo apt install avahi-daemon libnss-mdns
 ```
 
+- Installation (Fedora/RHEL)
+
+```
+sudo dnf install avahi avahi-tools nss-mdns
+```
+
 - Start the service
 
 ```
@@ -52,6 +58,13 @@ sudo hostnamectl set-hostname <your new hostname>
 
 ```
 sudo systemctl restart avahi-daemon
+```
+
+- Firewall Setup (Fedora/RHEL)
+
+```
+sudo firewall-cmd --add-service=mdns --permanent
+sudo firewall-cmd --reload
 ```
 
 - To Verify if it is setuo correctly
