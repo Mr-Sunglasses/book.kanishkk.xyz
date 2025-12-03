@@ -1,4 +1,4 @@
-# book.kanishkk.me
+# [book.kanishkk.xyz](https://book.kanishkk.xyz)
 An online fingerprint of my knowledge base
 
 ## Setup
