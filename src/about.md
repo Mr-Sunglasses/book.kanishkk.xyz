@@ -1,6 +1,8 @@
 ## Hi there 👋 Welcome to my blog!
 
-  
+P.S. This is what I look like, in case we ever bump into each other.
+
+![Kanishk's Image](./assets/kanishk.jpg)  
 
 I'm a dev 🤓 by ☀️ and an Open Source Contributor aka OpenSorcerer 🧙‍♂️ by 🌓, and a Cook 👨‍🍳 24/7 😊. I love ❤️ Python 🐍 and Fedora 🐧.
 
@@ -20,9 +22,9 @@ I'm a dev 🤓 by ☀️ and an Open Source Contributor aka OpenSorcerer 🧙‍
 
   
 
-![Podman](https://i0.wp.com/blog.podman.io/wp-content/uploads/2023/08/SelkiePodParty.png?fit=592%2C653&ssl=1)
+![umbrel](./assets/umbrel.jpg)
 
-[Learn more about Podman](https://podman.io/)
+[Learn more about umbrel](https://umbrel.com/)
 
   
 
