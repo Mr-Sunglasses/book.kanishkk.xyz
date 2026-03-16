@@ -1,3 +1,5 @@
+![Contact](./assets/assets-contact-blog/Pasted%20image%2020250406084958.png)
+
 You can reach out to me at [itskanishkp.py@gmail.com](mailto:itskanishkp.py@gmail.com)
 
 ### GPG Key

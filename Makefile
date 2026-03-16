@@ -1,13 +1,12 @@
 
 default:
-	@echo "Call a specific subcommand:"
-	@echo
-	@$(MAKE) -pRrq -f $(lastword $(MAKEFILE_LIST)) : 2>/dev/null\
-	| awk -v RS= -F: '/^# File/,/^# Finished Make data base/ {if ($$1 !~ "^[#.]") {print $$1}}'\
-	| sort\
-	| egrep -v -e '^[^[:alnum:]]' -e '^$@$$'
-	@echo
-	@exit 1
+	@echo "Usage: make <target>"
+	@echo ""
+	@echo "Targets:"
+	@echo "  build    Build the book"
+	@echo "  serve    Serve the book locally at http://localhost:3000"
+	@echo "  install  Install mdBook and required plugins"
+	@echo "  clean    Remove build artifacts"
 
 serve: book.toml src/
 	@echo "Serving the book at http://localhost:3000"

@@ -12,7 +12,7 @@ I'm a dev 🤓 by ☀️ and an Open Source Contributor aka OpenSorcerer 🧙‍
 
   
 
-![Fedora Loves Python](https://fedoralovespython.org/static/img/fedoralovespython.svg)
+![Fedora Loves Python](./assets/fedoralovespython.svg)
 
 [Learn more about Fedora and Python](https://fedoralovespython.org/)
 
@@ -32,7 +32,7 @@ I'm a dev 🤓 by ☀️ and an Open Source Contributor aka OpenSorcerer 🧙‍
 
   
 
-![Vim](https://preview.redd.it/every-day-i-lived-without-knowing-you-were-wasted-i-love-you-v0-827poea681q81.jpg?auto=webp&s=4583a86797c7ea9c5ed4a62a87ee716a07e27faf)
+![Vim](./assets/vim-love.jpg)
 
 [Learn more about Vim](https://www.vim.org)
 

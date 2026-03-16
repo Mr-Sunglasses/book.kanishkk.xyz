@@ -1,6 +1,27 @@
-book
+# mdbook build output
+book/
 
 # Local Netlify folder
-.netlify
+.netlify/
 
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor & IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Scripts: temp files
+*.tmp
+*.log
+
+# Environment / secrets
+.env
+.env.*
+!.env.example

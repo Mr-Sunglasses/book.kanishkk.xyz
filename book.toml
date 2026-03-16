@@ -1,12 +1,15 @@
 [book]
 title = "/var/log/book"
-description="Kanishk's knowledge base and writings"
+description = "Kanishk's knowledge base and writings"
 authors = ["Kanishk Pachauri"]
 language = "en"
 src = "src"
 
 [rust]
 edition = "2018"
+
+[build]
+create-missing = false
 
 [output.html]
 smart-punctuation = true
@@ -15,3 +18,22 @@ site-url = "/book/"
 git-repository-url = "https://github.com/Mr-Sunglasses/book.kanishkk.xyz/tree/master/src"
 edit-url-template = "https://github.com/Mr-Sunglasses/book.kanishkk.xyz/tree/master/{path}"
 hash-files = true
+default-theme = "navy"
+preferred-dark-theme = "ayu"
+no-section-label = true
+git-repository-icon = "fa-github"
+
+[output.html.fold]
+enable = true
+level = 1
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+expand = true
+
+[output.html.print]
+enable = true
+page-break = true

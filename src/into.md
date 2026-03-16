@@ -17,3 +17,9 @@ Aaron Swartz will always be in our heart and always remain our hero for speaking
 
 - [Remember Aaron Swartz](http://www.rememberaaronsw.com/memories/)
 - [Biograohy of Aaron Swartz](https://www.internethalloffame.org/inductee/aaron-swartz/)
+
+![Be Kind](./assets/be-kind.webp)
+
+![Save our Oceans](./assets/save-ocean.jpeg)
+
+![Save Earth](./assets/save-earth.avif)
