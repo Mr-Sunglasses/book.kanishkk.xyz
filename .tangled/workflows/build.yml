@@ -16,12 +16,9 @@ dependencies:
   # nixpkgs
   nixpkgs:
     - nodejs
-    - cargo
+    - mdbook
 
 steps:
-  - name: "Setup mdbook"
-    command: "cargo install mdbook"
-
   - name: "Install Netlify CLI"
     command: "npm install -g netlify-cli"
 
