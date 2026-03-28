@@ -21,7 +21,7 @@ dependencies:
 steps:
   - name: "Build book"
     command: |
-      nix develop --command bash -c 'mdbook build'
+      mdbook build
 
   - name: "Deploy to Netlify"
     command: |
