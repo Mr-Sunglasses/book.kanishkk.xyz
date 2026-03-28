@@ -19,17 +19,13 @@ dependencies:
     - mdbook
 
 steps:
-  - name: "Install netlify-cli"
-    command: |
-      npm install -g netlify-cli
-
   - name: "Build book"
     command: |
       mdbook build
 
   - name: "Deploy to Netlify"
     command: |
-      netlify deploy --dir=book --prod
+      npx netlify-cli deploy --dir=book --prod
     environment:
       NETLIFY_AUTH_TOKEN: ${secrets.NETLIFY_TOKEN}
       NETLIFY_SITE_ID: ${secrets.NETLIFY_SITE_ID}
