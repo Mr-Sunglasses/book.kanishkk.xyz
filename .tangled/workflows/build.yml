@@ -17,11 +17,9 @@ dependencies:
   nixpkgs:
     - nodejs
     - mdbook
+    - netlify-cli
 
 steps:
-  - name: "Install Netlify CLI"
-    command: "npm install -g netlify-cli"
-
   - name: "Build book"
     command: "mdbook build"
 
