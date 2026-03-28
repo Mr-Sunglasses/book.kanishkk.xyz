@@ -16,7 +16,7 @@ dependencies:
   # nixpkgs
   nixpkgs:
     - nodejs
-    - rustup
+    - cargo
 
 steps:
   - name: "Setup mdbook"
