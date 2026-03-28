@@ -25,18 +25,14 @@ steps:
 
   - name: "Check env"
     command: |
-      echo "AUTH_TOKEN: $NETLIFY_AUTH_TOKEN"
-      echo "SITE_ID: $NETLIFY_SITE_ID"
-    environment:
-      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
-      NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      echo "NETLIFY_TOKEN: $NETLIFY_TOKEN"
+      echo "NETLIFY_SITE_ID: $NETLIFY_SITE_ID"
 
   - name: "Deploy to Netlify"
     command: |
       echo "builder:x:$(id -u):$(id -g):builder:/tmp:/bin/sh" >> /etc/passwd
+      export NETLIFY_AUTH_TOKEN=$NETLIFY_TOKEN
       npx --yes netlify-cli deploy --dir=book --prod
     environment:
-      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
-      NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
       HOME: /tmp
       USER: builder
