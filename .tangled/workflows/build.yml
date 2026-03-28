@@ -1,0 +1,35 @@
+# .tangled/workflows/build.yml
+
+when:
+  - event: ["push"]
+    branch: ["master"]
+
+engine: "nixery"
+
+# using the default values
+clone:
+  skip: false
+  depth: 1
+  submodules: false
+
+dependencies:
+  # nixpkgs
+  nixpkgs:
+    - nodejs
+    - rustup
+
+steps:
+  - name: "Setup mdbook"
+    command: "cargo install mdbook"
+
+  - name: "Install Netlify CLI"
+    command: "npm install -g netlify-cli"
+
+  - name: "Build book"
+    command: "mdbook build"
+
+  - name: "Deploy to Netlify"
+    command: "netlify deploy --dir=book --prod"
+    environment:
+      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_TOKEN }}
+      NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
