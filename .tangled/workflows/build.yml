@@ -26,7 +26,6 @@ steps:
   - name: "Deploy to Netlify"
     command: |
       echo "builder:x:$(id -u):$(id -g):builder:/tmp:/bin/sh" >> /etc/passwd
-      export NETLIFY_AUTH_TOKEN=$NETLIFY_TOKEN
       npx --yes netlify-cli deploy --dir=book --prod
     environment:
       HOME: /tmp
