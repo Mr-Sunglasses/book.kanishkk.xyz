@@ -23,6 +23,14 @@ steps:
     command: |
       mdbook build
 
+  - name: "Check env"
+    command: |
+      echo "AUTH_TOKEN set: $([ -n "$NETLIFY_AUTH_TOKEN" ] && echo yes || echo NO)"
+      echo "SITE_ID set: $([ -n "$NETLIFY_SITE_ID" ] && echo yes || echo NO)"
+    environment:
+      NETLIFY_AUTH_TOKEN: ${secrets.NETLIFY_TOKEN}
+      NETLIFY_SITE_ID: ${secrets.NETLIFY_SITE_ID}
+
   - name: "Deploy to Netlify"
     command: |
       echo "builder:x:$(id -u):$(id -g):builder:/tmp:/bin/sh" >> /etc/passwd
