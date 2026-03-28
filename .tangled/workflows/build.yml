@@ -19,18 +19,13 @@ dependencies:
     - mdbook
 
 steps:
-  - name: "Fix environment"
-    command: |
-      export USER=builder
-      export HOME=/tmp
-
   - name: "Build book"
     command: |
-      mdbook build
+      nix develop --command bash -c 'mdbook build'
 
   - name: "Deploy to Netlify"
     command: |
-      npx netlify-cli deploy --dir=book --prod
+      npx --yes netlify-cli deploy --dir=book --prod
     environment:
       NETLIFY_AUTH_TOKEN: ${secrets.NETLIFY_TOKEN}
       NETLIFY_SITE_ID: ${secrets.NETLIFY_SITE_ID}
