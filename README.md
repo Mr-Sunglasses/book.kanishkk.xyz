@@ -8,7 +8,7 @@ An online fingerprint of my knowledge base
 ## Setup
 - Clone the Repo
 ```
-git clone https://github.com/Mr-Sunglasses/book.kanishkk.xyz
+git clone https://tangled.org/mr-sunglasses.tngl.sh/book.kanishkk.xyz/ 
 
 cd book.kanishkk.xyz
 ```
@@ -40,4 +40,3 @@ make build
 ```
 make clean
 ```
-
