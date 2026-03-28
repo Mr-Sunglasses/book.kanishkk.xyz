@@ -19,6 +19,11 @@ dependencies:
     - mdbook
 
 steps:
+  - name: "Fix environment"
+    command: |
+      export USER=builder
+      export HOME=/tmp
+
   - name: "Build book"
     command: |
       mdbook build
