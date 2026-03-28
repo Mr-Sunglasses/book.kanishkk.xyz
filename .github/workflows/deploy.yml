@@ -2,7 +2,7 @@ name: Build and Deploy mdbook with Netlify CLI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ donotwanttorunit ]
 
 jobs:
   build-and-deploy:
