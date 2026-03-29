@@ -16,7 +16,7 @@
 Aaron Swartz will always be in our heart and always remain our hero for speaking on the behalf of all of those, who stand for Internet Freedom and Open Knowledge.
 
 - [Remember Aaron Swartz](http://www.rememberaaronsw.com/memories/)
-- [Biograohy of Aaron Swartz](https://www.internethalloffame.org/inductee/aaron-swartz/)
+- [Biography of Aaron Swartz](https://www.internethalloffame.org/inductee/aaron-swartz/)
 
 ![Be Kind](./assets/be-kind.webp)
 

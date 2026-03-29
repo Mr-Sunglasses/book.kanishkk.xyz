@@ -143,7 +143,7 @@ volumes:
 
 # Bind Mounts
 - Direct link between a host directory and a container directory
-- Useful for development, when you want your host files availabe inside the container.
+- Useful for development, when you want your host files available inside the container.
 
 Example:
 
@@ -167,14 +167,14 @@ cd data/
 # run the python http server
 python3 -m http.server
 
-# Now when we change our index.html in the host directory, it'll change in the container direcotry. 
+# Now when we change our index.html in the host directory, it'll change in the container directory. 
 ```
 
 Here:
 - Your current directory `$(pwd)` on the host is mounted inside `/data` in the container.
 - Any change you make on your host immediately shows up in the container, and vice verca.
 
-_Note:_ __Bind Mounts__ are just Hard links to your local directory which is good for dev enviroment, but riskier in prod. 
+_Note:_ __Bind Mounts__ are just Hard links to your local directory which is good for dev environment, but riskier in prod. 
 
 
 ### Alternatively there is a long syntax of bind mount apart from using `-v`

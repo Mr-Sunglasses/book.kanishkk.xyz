@@ -25,7 +25,7 @@ And the best thing about Ghostty is it `feels like a native emulator` because of
 
 Enough about Ghostty itself-let's dive into how I customized it to suit my workflow and supercharge my productivity in the terminal.
 
-You can get more information about the [configuration](https://ghostty.org/docs/config) , [Option Refence](https://ghostty.org/docs/config/reference) and [Keybindings](https://ghostty.org/docs/config/keybind) for the [docs](https://ghostty.org/docs) of Ghostty.
+You can get more information about the [configuration](https://ghostty.org/docs/config) , [Option Reference](https://ghostty.org/docs/config/reference) and [Keybindings](https://ghostty.org/docs/config/keybind) for the [docs](https://ghostty.org/docs) of Ghostty.
 
 _Note: These configurations are tailored to fit my workflow and make things easier. You can customize them to suit your needs. My main goal is to show you "How to configure Ghostty."_ 
 
