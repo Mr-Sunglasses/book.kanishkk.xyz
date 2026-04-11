@@ -26,6 +26,16 @@ chmod +x install_mdbook.sh
 make install
 ```
 
+- Install pre-commit to run spell checks (using [uv](https://docs.astral.sh/uv/getting-started/installation/))
+```
+uv install pre-commit
+```
+
+- Run pre-commit on all files
+```
+make pre-commit
+```
+
 - Run the book
 ```
 make serve

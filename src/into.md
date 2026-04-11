@@ -1,6 +1,6 @@
 # Introduction
 
-![Helloi](./assets/hello.gif "Say Hello GIF")
+![Hello](./assets/hello.gif "Say Hello GIF")
 
 - [About me](./about.md)
 - [my dotfiles](https://github.com/Mr-Sunglasses/dotfiles)
