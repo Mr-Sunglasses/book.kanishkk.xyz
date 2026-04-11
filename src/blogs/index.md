@@ -7,3 +7,4 @@
 5. [Selfhosted 101](./selfhosted_101.md)
 6. [The Language of Music](./the_language_of_music.md)
 7. [Why Social Media Scares Me](./the_social_media.md)
+8. [A Guide to gpg and encryption](./gpg_guide.md)

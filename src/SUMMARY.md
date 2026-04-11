@@ -11,6 +11,7 @@
     - [Selfhosted 101](blogs/selfhosted_101.md)
     - [The Language of Music](blogs/the_language_of_music.md)
     - [Why Social Media Scares Me](blogs/the_social_media.md)
+    - [A Guide to gpg and encryption](blogs/gpg_guide.md)
 
 - [The Guide to QEMU-KVM](qemu/index.md)
     - [Introduction](qemu/intro.md)
